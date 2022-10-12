@@ -1,34 +1,76 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/query.css">
 </head>
+
 <body>
     <div class="big-container row">
         <div class="sidebar">
-            <div class="sidebar-logo">
+            <div class="sidebar-logo shrink">
                 <img class="img-large" src="img/logo.svg" alt="">
                 <img class="img-small" src="img/logo-small.svg" alt="">
             </div>
-            <div class="sidebar-home align-item-center">
+            <div class="sidebar-home align-item-center shrink">
                 <img src="img/home.svg" alt="">
                 <span class="none color-white">Home</span>
             </div>
-            <div class="sidebar-home align-item-center">
+            <div class="sidebar-home align-item-center shrink">
                 <img class="svg-opacity" src="img/search.svg" alt="">
-                <span class="none">Home</span>
+                <span class="none">Cerca</span>
             </div>
-        
-        
-        </div> 
+            <div class="sidebar-home align-item-center shrink">
+                <img class="svg-opacity" src="img/libreria.svg" alt="">
+                <span class="none">La tua libreria</span>
+            </div>
+            <div class="playlist none shrink overflow">
+                <h4 class="color-white">PLAYLIST</h4>
+                <div class="align-item-center">
+                    <span class="plus-icon none">
+                        <i class="fa-solid fa-square-plus"></i>
+                    </span>
+                    <span class="line-height">Crea Playlist</span>
+                </div>
+                <div class="name-playlist none">
+                    Nome Playlist
+                </div>
+                <div class="name-playlist none">
+                    Nome Playlist
+                </div>
+                <div class="name-playlist none">
+                    Nome Playlist
+                </div>
+                <div class="name-playlist none">
+                    Nome Playlist
+                </div>
+                <div class="name-playlist none">
+                    Nome Playlist
+                </div>
+                <div class="name-playlist none">
+                    Nome Playlist
+                </div>
+                <div class="name-playlist none">
+                    Nome Playlist
+                </div>
+            </div>
+            <div class="grow"></div>
+            <div class="row align-item-center shrink">
+                <img class="svg-opacity img-download" src="img/download.svg" alt="">
+                <span class="none">Installa app</span>
+            </div>
+            <div class="bar95"></div>
+
+
+        </div>
         <div class="container grow">
             <div class="upgrade-bar">
                 <button class="upgrade">Effettua l'upgrade</button>
@@ -37,4 +79,5 @@
     </div>
     <footer>footer</footer>
 </body>
+
 </html>
