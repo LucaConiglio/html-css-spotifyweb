@@ -1,0 +1,36 @@
+
+
+@media screen and (min-width: 568px) {
+
+.sidebar .sidebar-logo .img-large{
+        display: block;
+        padding: 1rem 1rem 0 0;
+        width: 100%;
+ }
+.img-small{
+    display: none;
+}
+.sidebar{
+    width: 150px;
+    flex-shrink: 0;
+    background-color: rgb(0, 0, 0);
+    font-size: 12px;
+ }
+ .sidebar-logo{
+    margin-bottom: 1rem;
+ }
+ .sidebar .sidebar-home img{
+    width: 20%;
+    margin-right: 0.5rem;
+ }
+ .sidebar-home{
+    padding-top: 0.5rem;
+ }
+ .none{
+    display: inline-block;
+    color: grey;
+ }
+ .color-white{
+    color: white;
+ }
+}

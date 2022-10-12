@@ -1,0 +1,213 @@
+/*************************************************
+    GENERAL STYLES
+ *************************************************/
+ *,
+ *::before,
+ *::after {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+ }
+
+ footer{
+    height: 60px;
+    flex-shrink: 0;
+    background-color: aqua;
+ }
+ .big-container{
+    height: calc(100vh - 60px);
+    flex-grow: 1;
+    background-color: darkgrey;
+
+ }
+ .container{
+    background-color: yellowgreen;
+    
+ }
+ .sidebar{
+    width: 50px;
+    flex-shrink: 0;
+    background-color: rgb(0, 0, 0);
+    padding-left: 0.5rem;
+ }
+ a{
+    text-decoration: none;
+ }
+ ul{
+    list-style: none;
+ }
+ img {
+     max-width: 100%;
+     display: block;
+ }
+ .upgrade-bar{
+    height: 60px;
+    flex-shrink: 0;
+    background-color: #282828;
+    padding-right: 0.5rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+ }
+ .upgrade{
+    border-color: white;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    padding: 0.4rem 2.5rem;
+ }
+
+ /************************************************
+     UTILITIES
+  ************************************************/
+ 
+ /* LAYOUT */
+ 
+ .row {
+     display: flex;
+ }
+ .wrap{
+    flex-wrap: wrap;
+ }
+ .grow{
+    flex-grow: 1;
+ }
+ .flex-bet {
+     display: flex;
+     justify-content:space-between;
+ }
+ .flex-center{
+     display: flex;
+     justify-content: center;
+ }
+ .flex-right{
+     display: flex;
+     justify-content: end;
+ }
+ .align-item-center{
+    display: flex;
+    align-items: center;
+ }
+ .flex-center-center{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .sidebar .sidebar-logo .img-large{
+    display: none;
+ }
+ .sidebar .sidebar-logo .img-small{
+    padding: 0.5rem;
+ }
+ .sidebar-logo{
+    margin-bottom: 1rem;
+ }
+     .col {
+     
+      }
+.svg-opacity{
+    opacity: 0.5;
+}
+     
+ 
+ /***** TEXT ******/
+ 
+ .text-center {
+     text-align: center;
+ }
+ .text-left{
+     text-align: left;
+ }
+ .text-right{
+     text-align: right;
+ }
+ /***** COLOR ******/
+ 
+ .bc-white{
+     background-color: white;
+ }
+ .color-white{
+     color: white;
+ }
+ 
+ 
+ /****PADDING E MARGIN******/
+ 
+ .padall05rem{
+     padding: 0.5rem;
+ }
+ 
+ .padall1rem{
+     padding: 1rem;
+ }
+ .pad05topbot{
+     padding: 0.5rem 0;
+ }
+ .pad1topbot{
+     padding: 1rem 0;
+ }
+ .pad2topbot{
+     padding: 2rem 0;
+ }
+ .pad3topbot{
+     padding: 3rem 0;
+ }
+ .pad1bot{
+     padding-bottom: 1rem;
+ }
+ .pad2bot{
+     padding-bottom: 2rem;
+ }
+ .pad3bot{
+     padding-bottom: 3rem;
+ }
+ .pad1top{
+     padding-top: 1rem;
+ }
+ .pad2top{
+     padding-top: 2rem;
+ }
+ .pad3top{
+     padding-top: 3rem;
+ }
+ .pad1leftright{
+     padding: 0 1rem;
+ }
+ .pad2leftright{
+     padding: 0 2rem;
+ }
+ .pad3leftright{
+     padding: 0 3rem;
+ }
+ .martop1{
+     margin-top: 1rem;
+ }
+ .martop2{
+     margin-top: 2rem;
+ }
+ .martop3{
+     margin-top: 3rem;
+ }
+ .marbot1{
+     margin-bottom: 1rem;
+ }
+ .marbot2{
+     margin-bottom: 2rem;
+ }
+ .marbot3{
+     margin-bottom: 3rem;
+ }
+ .martopbot1{
+     margin: 1rem 0;
+ }
+ .martopbot2{
+     margin: 2rem 0;
+ }
+ .martopbot3{
+     margin: 3rem 0;
+ }
