@@ -15,20 +15,25 @@
  }
 
  footer{
-    height: 60px;
+    height: 70px;
     flex-shrink: 0;
-    background-color: aqua;
+    background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
  }
  .big-container{
-    height: calc(100vh - 60px);
+    height: calc(100vh - 70px);
     flex-grow: 1;
     background-color: darkgrey;
 
  }
  .container{
-    background-color: yellowgreen;
+    background-color: #141922;
     
  }
+ 
  .sidebar{
     width: 50px;
     flex-shrink: 0;
@@ -49,7 +54,7 @@
      display: block;
  }
  .upgrade-bar{
-    height: 60px;
+    height: 70px;
     flex-shrink: 0;
     background-color: #282828;
     padding-right: 0.5rem;
@@ -64,6 +69,39 @@
     color: white;
     padding: 0.4rem 2.5rem;
  }
+ .player-bar>*{
+    font-size: 0.8rem;
+ }
+ 
+.player-center{
+    font-size: 1.6rem;
+}
+.barra-player{
+    display: inline-block;
+    width: 50px;
+    background-color: grey;
+    border: 2px solid grey;
+    border-radius: 50px;
+}
+/* .barra-player-in{
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 50px;
+    position: relative;
+    bottom: 8px;
+    right: 100px;
+} */
+.barra-volume{
+    width: 80px;
+    border: 2px solid grey ;
+    display: inline-block;
+    border-radius: 50px;
+}
+/* .barra-volume-in{
+    width: 25px;
+    border: 2px solid white ;
+    border-radius: 50px;
+} */
 
  /************************************************
      UTILITIES
@@ -104,6 +142,13 @@
      justify-content: center;
      align-items: center;
  }
+ .column{
+    display: flex;
+    flex-direction: column;
+ }
+ .self-center{
+    align-self: center;
+ }
  .sidebar .sidebar-logo .img-large{
     display: none;
  }
@@ -118,9 +163,6 @@
  img.img-small{
     width: 80%;
  }
-     .col {
-     
-      }
 .svg-opacity{
     opacity: 0.5;
 }
@@ -136,9 +178,24 @@ img.img-download{
     padding-right: 0.5rem;
     padding-bottom: 1rem;
 }
-.bar95{
-    
-
+.radius50-profile{
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.5rem 0.5rem 0;
+}
+.none{
+    display: none;
+}
+footer div>*{
+   margin: 0 3px;
+}
+.sinister{
+    width: 40px;
 }
  
  /***** TEXT ******/
@@ -159,6 +216,9 @@ img.img-download{
  }
  .color-white{
      color: white;
+ }
+ .color-grey{
+    color: grey;
  }
  
  
@@ -191,6 +251,9 @@ img.img-download{
  }
  .pad3bot{
      padding-bottom: 3rem;
+ }
+ .pad03top{
+    padding-top: 0.3rem;
  }
  .pad1top{
      padding-top: 1rem;
