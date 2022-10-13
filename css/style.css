@@ -113,6 +113,7 @@
     background-color: white;
     border-radius: 5px;
     margin: 0;
+    position: relative;
 }
  /************************************************
      UTILITIES
@@ -226,7 +227,7 @@ footer div>*{
  .in-evidenza h4 a{
     color: rgb(165, 165, 165);
  }
- .in-evidenza h4:hover .in-evidenza h4 a{
+ .in-evidenza h4 a:hover{
     color: white;
  }
 
@@ -401,6 +402,25 @@ flex-basis: 25%;
     align-self: center;
 }
 
+.sidebar a:hover{
+    color: white;
+}
+
+.sidebar .sidebar-home a:hover{
+    color: white;
+}
+.svg-opacity:hover{
+    opacity: 1;
+}
+small a:hover{
+    color: white;
+}
+span a:hover{
+    color: white;
+}
+.player-center a i:hover{
+    font-size: 1.8rem;
+}
 
 .mar1-5leftright{
     margin: 0 1.5rem;
