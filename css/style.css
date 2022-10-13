@@ -89,12 +89,14 @@
     border: 2px solid grey ;
     display: inline-block;
     border-radius: 50px;
+    background-color: grey;
 }
 
 .barra-volume-in{
     width: 25px;
     border: 2px solid white ;
     border-radius: 50px;
+    background-color: white;
 }
 .barra-player{
     flex-grow: 1;
@@ -178,9 +180,13 @@
      
 .name-playlist{
     padding-top: 0.7rem;
+    width: 100%;
 }
 .overflow{
     overflow: auto;
+}
+.overflow-hidden{
+    overflow: hidden;
 }
 img.img-download{
     width: 30px;
@@ -206,7 +212,22 @@ footer div>*{
 .sinister{
     width: 40px;
 }
- 
+ .in-evidenza{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: rgb(165, 165, 165);
+    text-align: center;
+    
+ }
+ .in-evidenza>*{
+    color: rgb(165, 165, 165);
+    padding-bottom: 2rem;
+    border: 1px dashed red;
+ }
+ .in-evidenza h4 a{
+    color: rgb(165, 165, 165);
+ }
  /***** TEXT ******/
  
  .text-center {
@@ -309,3 +330,71 @@ footer div>*{
  .martopbot3{
      margin: 3rem 0;
  }
+
+ /******colonne*******/
+ .col-100{
+    flex-basis: 100%;
+}
+.col-50{
+    flex-basis: 50%;
+}
+.col-1_3{
+    flex-basis: calc(100% / 3);
+}
+.col-2_3{
+    flex-basis: calc(100% / 3 * 2);
+}
+.col-1_4{
+flex-basis: 25%;
+}
+.col-2_4{
+     flex-basis: 50%;
+}
+.col-3_4{
+     flex-basis: 75%;
+}
+.col-1_5{
+     flex-basis: 20%;
+}
+.col-2_5{
+     flex-basis: 40%;
+}
+.col-3_5{
+     flex-basis: 60%;
+}
+.col-4_5{
+     flex-basis: 80%;
+}
+.col-1_6{
+   flex-basis: calc(100% / 6)
+}
+.card-img{
+    position: relative;
+}
+.img-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    
+    
+}
+.card:hover .img-overlay{
+    display: flex;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.card:hover .card-img{
+    opacity: 0.6;
+    filter: blur(0.5px);
+    transition: 0.3s;
+}
+.img-overlay i{
+    color: white;
+    font-size: 500%;
+    align-self: center;
+}
