@@ -58,51 +58,86 @@
     .player-bar>*{
         font-size: 1rem;
      }
-     .barra-player{
-        display: inline-block;
-        width: 50px;
-        background-color: grey;
-        border: 2px solid grey;
-        border-radius: 50px;
-    }
-    /* .barra-player-in{
-        width: 50px;
-        border: 2px solid white;
-        border-radius: 50px;
-        position: relative;
-        bottom: 8px;
-        right: 50px;
-    } */
-    .player-bar-right>*{
-        margin: 0 0.5rem;
-     }
-
-
+    .barra-volume-in{
+      width: 25px;
+      border: 2px solid white ;
+      border-radius: 50px;
+  }
+  .absolute{
+      width: 95px;
+      position: absolute;
+      right: 0;
+      bottom: 30px;
+  }
+     .player-bar>*{
+      font-size: 1.2rem;
+      margin: 0 0.5rem;
+   
+   }
+   
+  .player-center{
+      font-size: 1.8rem;
+  }
+  .barra-player-in{
+   background-color: rgb(126, 126, 126);
+   height: 4px;
+   width: 18vw;  
+}
+.barra-player-in-white{
+   color: white;
+   width: 25%;
+   height: 4px;
+   background-color: white;
+   border-radius: 5px;
+   margin: 0;
+}
     
 }
 
 @media screen and (min-width: 768px) {
 
-    .barra-player{
-        display: inline-block;
-        width: 250px;
-        background-color: grey;
-        border: 2px solid grey;
-        border-radius: 50px;
-    }
-    .barra-player-in{
-        width: 50px;
-        border: 2px solid white;
-        border-radius: 50px;
-        position: relative;
-        bottom: 8px;
-        right: 100px;
-    }
+    
+    
     .barra-volume{
         width: 100px;
         border: 2px solid grey ;
         display: inline-block;
         border-radius: 50px;
     }
-    
+    .absolute{
+      width: 106px;
+      position: absolute;
+      right: 0;
+      bottom: 30px;
+  }
+  .barra-volume-in{
+   width: 25px;
+   border: 2px solid white ;
+   border-radius: 50px;
+}
+
+.player-bar-right>*{
+   margin: 0 0.5rem;
+}
+.player-bar>*{
+ font-size: 1.3rem;
+ margin: 0 1rem;
+}
+
+.player-center{
+ font-size: 2rem;
+}
+.barra-player-in{
+   background-color: rgb(126, 126, 126);
+   height: 4px;
+   width: 30vw;  
+}
+.barra-player-in-white{
+   color: white;
+   width: 25%;
+   height: 4px;
+   background-color: white;
+   border-radius: 5px;
+   margin: 0;
+}
 }

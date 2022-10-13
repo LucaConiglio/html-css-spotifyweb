@@ -76,33 +76,42 @@
 .player-center{
     font-size: 1.6rem;
 }
-.barra-player{
-    display: inline-block;
-    width: 50px;
-    background-color: grey;
-    border: 2px solid grey;
-    border-radius: 50px;
+.absolute{
+    width: 85px;
+    position: absolute;
+    right: 0;
+    bottom: 30px;
 }
-/* .barra-player-in{
-    width: 50px;
-    border: 2px solid white;
-    border-radius: 50px;
-    position: relative;
-    bottom: 8px;
-    right: 100px;
-} */
+
+
 .barra-volume{
     width: 80px;
     border: 2px solid grey ;
     display: inline-block;
     border-radius: 50px;
 }
-/* .barra-volume-in{
+
+.barra-volume-in{
     width: 25px;
     border: 2px solid white ;
     border-radius: 50px;
-} */
-
+}
+.barra-player{
+    flex-grow: 1;
+}
+.barra-player-in{
+    background-color: rgb(126, 126, 126);
+    height: 4px;
+    width: 8vw;  
+}
+.barra-player-in-white{
+    color: white;
+    width: 25%;
+    height: 4px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0;
+}
  /************************************************
      UTILITIES
   ************************************************/

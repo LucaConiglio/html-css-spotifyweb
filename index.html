@@ -17,20 +17,20 @@
     <div class="big-container row">
         <div class="sidebar">
             <div class="sidebar-logo shrink">
-                <img class="img-large" src="img/logo.svg" alt="logo">
-                <img class="img-small" src="img/logo-small.svg" alt="logo">
+               <a href="#"> <img class="img-large" src="img/logo.svg" alt="logo"></a>
+               <a href="#"><img class="img-small" src="img/logo-small.svg" alt="logo"></a>
             </div>
             <div class="sidebar-home align-item-center shrink">
-                <img src="img/home.svg" alt="">
-                <span class="none color-white">Home</span>
+                <img src="img/home.svg" alt="home">
+                <a href="#"><span class="none color-white">Home</span></a>
             </div>
             <div class="sidebar-home align-item-center shrink">
                 <img class="svg-opacity" src="img/search.svg" alt="lente">
-                <span class="none">Cerca</span>
+                <a href="#"><span class="none">Cerca</span></a>
             </div>
             <div class="sidebar-home align-item-center shrink">
-                <img class="svg-opacity" src="img/libreria.svg" alt="libreria">
-                <span class="none">La tua libreria</span>
+               <img class="svg-opacity" src="img/libreria.svg" alt="libreria">
+                <a href=""><span class="none"> La tua libreria</span></a>
             </div>
             <div class="playlist none shrink overflow">
                 <h4 class="color-white">PLAYLIST</h4>
@@ -38,7 +38,7 @@
                     <span class="plus-icon none">
                       <a href="#"></a>  <i class="fa-solid fa-square-plus"></i></a>
                     </span>
-                    <span class="line-height">Crea Playlist</span>
+                    <a class="color-grey" href=""><span class="line-height">Crea Playlist</span></a>
                 </div>
                 <div class="name-playlist none">
                    <a class="none" href="#">Nome Playlist</a>
@@ -110,12 +110,16 @@
                     <i class="fa-solid fa-forward-step"></i>
                     <i class="fa-solid fa-rotate-right"></i>
                 </div>
-                <div class="pad03top">
-                    <small> 0.25</small>
-                    <span class="barra-player"></span>
-                    <small> 4.35</small>
+                <div class="pad03top flex-center-center">
+                    <div><small> 0.25</small></div>
+                    <div class="barra-player">
+                        <div class="barra-player-in">
+                            <div class="barra-player-in-white"></div>
+                        </div>
+                    </div>
+                    <div><small> 4.35</small></div>
                 </div>
-                <div class="barra-player-in"></div>
+                
             </div>
         </div>
         <div class="footer-right grow">
@@ -124,7 +128,9 @@
                 <i class="fa-solid fa-display"></i>
                 <i class="fa-solid fa-volume-high"></i>
                 <span class="barra-volume"></span>
-                <!-- <div class="barra-volume-in"></div> -->
+                <div class="absolute">
+                    <div class="barra-volume-in"></div>
+                </div>
             </div>
             
         </div>
