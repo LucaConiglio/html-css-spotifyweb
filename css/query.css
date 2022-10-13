@@ -46,7 +46,7 @@
  .line-height{
     padding-left: 0.5rem;
  }
- .bar95{
+   .bar95{
     width: 88%;
     border-top: 0.5px solid;
     margin: 0.5rem;
@@ -60,17 +60,7 @@
     .player-bar>*{
         font-size: 1rem;
      }
-    .barra-volume-in{
-      width: 25px;
-      border: 2px solid white ;
-      border-radius: 50px;
-  }
-  .absolute{
-      width: 95px;
-      position: absolute;
-      right: 0;
-      bottom: 30px;
-  }
+
      .player-bar>*{
       font-size: 1.2rem;
       margin: 0 0.5rem;
@@ -82,7 +72,7 @@
   }
   .player-center a i:hover{
    font-size: 1.9rem;
-}
+   }
   .barra-player-in{
    background-color: rgb(126, 126, 126);
    height: 4px;
@@ -95,6 +85,12 @@
    background-color: white;
    border-radius: 5px;
    margin: 0;
+}
+.barra-volume{
+   width: 12vw;
+   display: inline-block;
+   border-radius: 50px;
+   background-color: grey;
 }
 .in-evidenza h4{
    font-size: 0.7rem;
@@ -139,25 +135,6 @@
 
 @media screen and (min-width: 768px) {
 
-    
-    
-    .barra-volume{
-        width: 100px;
-        border: 2px solid grey ;
-        display: inline-block;
-        border-radius: 50px;
-    }
-    .absolute{
-      width: 106px;
-      position: absolute;
-      right: 0;
-      bottom: 30px;
-  }
-  .barra-volume-in{
-   width: 25px;
-   border: 2px solid white ;
-   border-radius: 50px;
-}
 
 .player-bar-right>*{
    margin: 0 0.5rem;
