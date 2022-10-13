@@ -40,8 +40,8 @@
  .plus-icon{
     font-size: 40px;
  }
- h4.color-white{
-    margin: 2rem 0 0.5rem 0;
+ .sidebar h4.color-white{
+   margin: 2rem 0 0.5rem 0;
  }
  .line-height{
     padding-left: 0.5rem;
@@ -272,6 +272,9 @@ flex-basis: 25%;
 }
 .in-evidenza h4{
    font-size: 0.9rem;
+}
+.max-w{
+   max-width: 992px;
 }
 
 

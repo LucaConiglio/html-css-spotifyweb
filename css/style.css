@@ -221,13 +221,15 @@ footer div>*{
     
  }
  .in-evidenza>*{
-    color: rgb(165, 165, 165);
     padding-bottom: 2rem;
-    border: 1px dashed red;
  }
  .in-evidenza h4 a{
     color: rgb(165, 165, 165);
  }
+ .in-evidenza h4:hover .in-evidenza h4 a{
+    color: white;
+ }
+
  /***** TEXT ******/
  
  .text-center {
@@ -397,4 +399,17 @@ flex-basis: 25%;
     color: white;
     font-size: 500%;
     align-self: center;
+}
+
+
+.mar1-5leftright{
+    margin: 0 1.5rem;
+}
+.radius-50{
+    border-radius: 50%;
+    
+}
+.upgrade:hover{
+    scale: 1.1;
+    transition: 0.2s;
 }
